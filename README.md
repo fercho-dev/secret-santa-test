@@ -2,6 +2,7 @@
 A simple app to shuffle and assign secret santas in your family
 
 **Visit live version:**
+https://secret-santa-test.vercel.app/
 
 Or clone this repo and run it locally. You need Node 18.17+.
 Once you have the code in your computer run it with

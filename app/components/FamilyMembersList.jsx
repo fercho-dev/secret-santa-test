@@ -11,7 +11,7 @@ import { getSecretSantaForById } from '../utils/users'
 export default function FamilyMembersList({ userFamilyInfo }) {
   return (
     <details className="my-8">
-      <summary className="bg-green-200 p-2 text-sm cursor-pointer">My Family's secret santas...</summary>
+      <summary className="bg-green-200 p-2 text-sm cursor-pointer">My Family secret santas...</summary>
       <ul className="py-2 px-6 flex flex-col gap-2">
         {/* Map over sorted family members to render each member and their Secret Santa. */}
         {userFamilyInfo.family.members.sort((a, b) => a.id - b.id).map((member) => (
